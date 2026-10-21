@@ -34,3 +34,6 @@ HUB 12 PANEL         ESP 32 PIN
 ```
 si nesecita utilizar otros pines debe modificar dentro de la libreria 
 Agrega el repositorio a tu archivo `platformio.ini`:
+## Envitame un cafe
+Para mejorar esta biblioteca, invierto tiempo, dinero y energía. Cualquier tipo de apoyo será bienvenido. Si este proyecto te ha resultado útil, puedes apoyarme a través de:
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=yonywashin@gmail.com&currency_code=USD)

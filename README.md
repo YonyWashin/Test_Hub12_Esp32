@@ -15,5 +15,17 @@ Librería optimizada para el control de matrices LED P10 (HUB12) utilizando ESP3
 <img width="653" height="616" alt="matrix led esp32" src="https://github.com/user-attachments/assets/b8dea364-7827-4021-a7b4-df8b99ba90d6" />
 
 ## Instalación en PlatformIO
-
+## La libreria utiliza estos pines por Defecto 
+HUB 12 PANEL         ESP 32 PIN
++----------+
+|  OE  A   |    OE  -> IO25    A -> IO22
+|  N   B   |                   B -> IO23
+|  N  GND  |                   GND 
+|  N  CLK  |                   CLK -> IO27 
+|  N  LAT  |                   LAT -> IO26
+|  N  DAT  |                   DAT -> IO12
+|  N  GND  |                   GND 
+|  N  GND  |                   GND -> ESP32 GND
++----------+
+si nesecita utilizar otros pines debe modificar dentro de la libreria 
 Agrega el repositorio a tu archivo `platformio.ini`:

@@ -2,6 +2,9 @@
 
 Librería optimizada para el control de matrices LED P10 (HUB12) utilizando ESP32, FreeRTOS y compatibilidad nativa con **Adafruit_GFX**.
 
+Al principio el proyecto utilizaba el SPI, DMA y Interrupciones para tranferir datos a los paneles P10, pero vemos que no es muy agradable utilizar interrupciones para refrescar la pantalla ademas si queriamos mapear una pantalla led de 4 filas por 5 columnas de modulos nesecitabamos grandes cables de datos IDC. 
+La otra opcion que teniamos es utilizar el I2S en paralelo a los pines GPIO con DMA, sin consumir ciclos de CPU, pero encontramos un inconveniente, los paneles no todos son fabricados con el mismo tipo de IC algunos traen la 74hc que no eran compatibles, actualmente en el mercado existen mas con IC tipo DP, para hacer compatible con ambos tipos de IC obtamos por usar FreeRTOS para que una de las CPU este continuamente refrescando la pantalla led P10. Talvez mas adelante desaparescan los modulos p10 basados en IC tipo 74HC y actulizamos la libreria para usar I2S y DMA, sin la intervencion de la CPU de ESP32.
+ 
 ## Características
 - Control de paneles P10 mediante FreeRTOS en Core 1.
 - Compatible con las funciones de dibujo de Adafruit GFX (líneas, texto, fuentes, rectángulos).

@@ -1,0 +1,20 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Archivos de compilación y binarios
+*.elf
+*.bin
+*.hex
+*.o
+*.a
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

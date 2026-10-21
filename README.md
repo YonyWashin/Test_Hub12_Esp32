@@ -11,7 +11,9 @@ Librería optimizada para el control de matrices LED P10 (HUB12) utilizando ESP3
 - 10 Paneles por cada puerto.
 - Los Modulos P10 soportados y probados con IC(74HC595, DP5125C, ICN2037) y otro.
 - MCU ESP-WROOM-32 de espressif.
-<img width="1200" height="1600" alt="matrix led esp32" src="https://github.com/user-attachments/assets/23d3bd5d-b00f-4229-b030-9f162e8a5b02" />
+
+<img width="653" height="616" alt="matrix led esp32" src="https://github.com/user-attachments/assets/b8dea364-7827-4021-a7b4-df8b99ba90d6" />
+
 ## Instalación en PlatformIO
 
 Agrega el repositorio a tu archivo `platformio.ini`:

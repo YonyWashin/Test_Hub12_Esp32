@@ -6,6 +6,11 @@ Librería optimizada para el control de matrices LED P10 (HUB12) utilizando ESP3
 - Control de paneles P10 mediante FreeRTOS en Core 1.
 - Compatible con las funciones de dibujo de Adafruit GFX (líneas, texto, fuentes, rectángulos).
 - Control de brillo por PWM.
+- Maneja hasta 4 puertos hub12.
+- Soporta hasta 40 Paneles
+- 10 Paneles por cada puerto.
+- Los Modulos P10 soportados y probados con IC(74HC595, DP5125C, ICN2037) y otro.
+- MCU ESP-WROOM-32 de espressif.
 
 ## Instalación en PlatformIO
 
